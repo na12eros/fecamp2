@@ -1,3 +1,4 @@
+@charset "utf-8";
 .container{
 	max-width: 960px;
 	background: silver;
@@ -9,3 +10,6 @@
 /* .container{
 	max-width: 960px;
 } - div id인 경우 사용*/
+.header>h1{
+
+}
