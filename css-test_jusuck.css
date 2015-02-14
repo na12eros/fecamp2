@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* html reset */
+.container{
+	max-width: 960px;
+	background: silver;
+	margin: 0 auto 0 auto;}
+	
+	/*margin: 0 0 0 auto;*/
+	/*margin: 0 auto; 만 쓰기 가능 > 반복일 경우*/
+
+/* .container{
+	max-width: 960px;
+} - div id인 경우 사용*/
+.header>h1{
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>css test</title>
+		<style>
+		.parent{
+			background: #000
+		}
+		.parent:after{
+			content: "";
+			color: #fff;
+			display: block;
+			clear: both;
+		}
+		.a{
+			background: #f00;
+			float: left;
+			width: 100px;
+			height: 100px;
+		}
+		.b{
+			background: #00f;
+			width: 100px;
+			height: 100px;
+			float: left;
+		}
+		/*.c{
+			display: block;
+			background: #ccc;
+			clear: both;*/
+		}
+		</style>
+	</head>
+	<body>
+	<div class="parent">
+		<span class="b">b</span>
+		<span class="a">a</span>
+		<!-- <span class="c"></span> -->		
+	</div>
+	</body>
+</html>
+
